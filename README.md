@@ -29,5 +29,8 @@ Approaches used by different problems are given here in short -
 8.Cyclic Rotation of an Array :
 	Approach 1 = Shifting 
 	Approach 2 = 2 Pointer 
+9.Largest Sum of Contiguous Subarray : (find subarray whose sum is max)
+	Approach 1 = Brute force using 2 nested for loops
+	Best Approach = Kadane's Algorithm
 
   
