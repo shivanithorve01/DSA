@@ -32,5 +32,8 @@ Approaches used by different problems are given here in short -
 9.Largest Sum of Contiguous Subarray : (find subarray whose sum is max)
 	Approach 1 = Brute force using 2 nested for loops
 	Best Approach = Kadane's Algorithm
+10.Minimum no of jumps to reach an end of an array :
+	Approach 1 = DP Approach
+	Best Approach = Greedy Approach
 
   
