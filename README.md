@@ -35,5 +35,12 @@ Approaches used by different problems are given here in short -
 10.Minimum no of jumps to reach an end of an array :
 	Approach 1 = DP Approach
 	Best Approach = Greedy Approach
+11.Minimize the maximum difference between the heights :
+	Approach = Brute Force Recursion
+	Best Approach = Greedy Algorithm
+12.Two repeating elements in an array
+	Best Approach = Using auxillary array to store count of repeated elements
+13.Duplicates in an array :
+	Best Approach = HashMap 
 
   
