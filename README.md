@@ -40,7 +40,11 @@ Approaches used by different problems are given here in short -
 	Best Approach = Greedy Algorithm
 12.Two repeating elements in an array
 	Best Approach = Using auxillary array to store count of repeated elements
-13.Duplicates in an array :
-	Best Approach = HashMap 
+13.Rearrange an array such that arr[i] becomes arr[arr[i]] :
+	Approach : Using arr[i]= a+b*n trick
+14.Duplicates in an array :
+	Approach 1 = Sorting 
+	Approach 2 = HashMap
+	Best Approach = LinkedList Cycle(Tortoise 2 pointer) Method 
 
   
