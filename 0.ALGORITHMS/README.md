@@ -1,11 +1,11 @@
 #DYNAMIC PROGRAMMING : 
 	Dynamic Programming is a method for solving a complex problem by breaking it down into a collection of simpler sub-problems, solving each of those subproblems just once, and storing their solutions using a memory-based data structures.
 
-#KADANE'S ALGORITHM : 
+##KADANE'S ALGORITHM : 
 	Kadane’s algorithm is a Dynamic Programming approach to maintain the maximum possible sum of a subarray ending at an index without needing to store the numbers in an auxiliary array thereby reducing the space complexity.
 Let us understand this kadane's algorithm using a popular problem of Largest Sum of Contiguous Subarray. 
 
-##LARGEST SUM OF CONTIGUOUS SUBARRAY 
+**LARGEST SUM OF CONTIGUOUS SUBARRAY** 
             
 **Problem Statement** = 
 Given an array A[] with n elements.find the maximum sum of a subarray 
@@ -32,20 +32,20 @@ among all subarrays of that array. A subarray of array A[] of length n is a cont
         * o/p Largest Sum = -2
 
         
-##**Optimal Approach : Kadane's Algorithm** 
+**Optimal Approach : Kadane's Algorithm** 
 
     Find all possible subarrays and their sum.Largest among them is required largest sum.
-    1. Initialise _max_sum_=A[0]
-    2. Initialize _curr_sum_ = 0
+    1. Initialise max_sum=A[0]
+    2. Initialize curr_sum = 0
     3. for loop to iterate over an array, i=0 to i=n-1
-    4. Add A[i] to _curr_sum_ for every pass.
-    5. If at any point _curr_sum_ < 0 or _curr_sum_ < _max_sum_ then reassign _curr_sum_ to 0.
-    6. If _curr_sum_ > _max_sum_, then _max_sum_ = _curr_sum_
-    7. return _max_sum_
+    4. Add A[i] to curr_sum for every pass.
+    5. If at any point curr_sum < 0 or curr_sum < max_sum then reassign curr_sum to 0.
+    6. If curr_sum > max_sum, then max_sum = curr_sum
+    7. return max_sum
 
-**Time Complexity :** O(n)
+**Time Complexity :** O(n)\
 **Space Complexity :**O(1)
 
 **Tip :** 
-	* Don't use sorting technique as in order to find subarray,order of an array becomes important.
+	* Don't use sorting technique as in order to find subarray,order of an array becomes important.\
 	* Time Complexity will reduce in Divide & Conquer Method to O(nlogn) but space complexity will increase to O(nlogn).
