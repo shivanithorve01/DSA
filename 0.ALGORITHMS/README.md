@@ -43,10 +43,9 @@ among all subarrays of that array. A subarray of array A[] of length n is a cont
     6. If curr_sum > max_sum, then max_sum = curr_sum
     7. return max_sum
 
-**Time Complexity :** O(n) \ 
-
+**Time Complexity :** O(n)  
 **Space Complexity :**O(1)
 
-**Tip :**\ 
+**Tip :**  
 	* Don't use sorting technique as in order to find subarray,order of an array becomes important.\
 	* Time Complexity will reduce in Divide & Conquer Method to O(nlogn) but space complexity will increase to O(nlogn).
