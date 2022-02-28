@@ -1,7 +1,7 @@
-#DYNAMIC PROGRAMMING : 
+**DYNAMIC PROGRAMMING :** \
 	Dynamic Programming is a method for solving a complex problem by breaking it down into a collection of simpler sub-problems, solving each of those subproblems just once, and storing their solutions using a memory-based data structures.
 
-##KADANE'S ALGORITHM : 
+**KADANE'S ALGORITHM :** \ 
 	Kadane’s algorithm is a Dynamic Programming approach to maintain the maximum possible sum of a subarray ending at an index without needing to store the numbers in an auxiliary array thereby reducing the space complexity.
 Let us understand this kadane's algorithm using a popular problem of Largest Sum of Contiguous Subarray. 
 
@@ -43,9 +43,10 @@ among all subarrays of that array. A subarray of array A[] of length n is a cont
     6. If curr_sum > max_sum, then max_sum = curr_sum
     7. return max_sum
 
-**Time Complexity :** O(n)\
+**Time Complexity :** O(n) \ 
+
 **Space Complexity :**O(1)
 
-**Tip :** 
+**Tip :**\ 
 	* Don't use sorting technique as in order to find subarray,order of an array becomes important.\
 	* Time Complexity will reduce in Divide & Conquer Method to O(nlogn) but space complexity will increase to O(nlogn).
