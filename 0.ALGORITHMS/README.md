@@ -44,7 +44,7 @@ among all subarrays of that array. A subarray of array A[] of length n is a cont
     7. return max_sum
 
 **Time Complexity :** O(n)\
-**Space Complexity :**O(1)
+**Space Complexity :** O(1)
 
 **Tip :**  
 	* Don't use sorting technique as in order to find subarray,order of an array becomes important.\
