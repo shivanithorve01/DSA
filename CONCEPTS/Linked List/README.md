@@ -14,7 +14,7 @@
 
 **Space Complexity** 
 
-Extra space is used to store elements of LL in array. 
+Extra space is used to store elements of LL in array.  
 Space Complexity : O(n) 
 
 ### Displaying the Singly Linked List 
@@ -41,11 +41,13 @@ Space Complexity : O(1)
 1. Inserting a node at first position will shift first or head pointer to new node.
 2. For inserting a node in between, bring temporary pointer p to the position. 
 
-Inserting at first position :
-![Linkedlist_insert_at_start](https://user-images.githubusercontent.com/81226536/157304956-2cee37f1-5cda-455a-ad4a-477b74cdad01.png)
+Inserting at first position : 
+
+![Linkedlist_insert_at_start](https://user-images.githubusercontent.com/81226536/157304956-2cee37f1-5cda-455a-ad4a-477b74cdad01.png) 
 
 Inserting a node in between : 
-![Linkedlist_insert_middle](https://user-images.githubusercontent.com/81226536/157304917-d53314ee-add4-412b-9a45-71e24e53f8d2.png)
+
+![Linkedlist_insert_middle](https://user-images.githubusercontent.com/81226536/157304917-d53314ee-add4-412b-9a45-71e24e53f8d2.png) 
  
 **Time Complexity** 
 
@@ -67,8 +69,9 @@ Space Complexity : O(1)
 3. Free memory for the node to be deleted.
 
 
-Deleting a node  :
-![Linkedlist_deletion](https://user-images.githubusercontent.com/81226536/157306410-645f3871-7d8d-4f01-8492-66862d6da268.png)
+Deleting a node  : 
+
+![Linkedlist_deletion](https://user-images.githubusercontent.com/81226536/157306410-645f3871-7d8d-4f01-8492-66862d6da268.png) 
 
 **Time Complexity** 
 
