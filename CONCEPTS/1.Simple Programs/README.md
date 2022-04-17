@@ -541,13 +541,14 @@ For every k size window store every element if negative in deque from rear end u
 # Reverse an array 
 
 
-##Approaches :   
+## Approaches :   
 
 1. Iterative Approach
 2. Recursive Approach 
 
-###ITERATIVE APPRAOCH**
-**Steps :**
+### ITERATIVE APPRAOCH** 
+
+**Algorithm :**
 
 1. Declare and initialize variables start=0 and end=length-1
 2. While start<end, swap start and end.
@@ -555,10 +556,11 @@ For every k size window store every element if negative in deque from rear end u
 
 **Time Complexity** 
   
-Time Complexity : O(n) 
+Time Complexity : `O(n)`\ 
 
-###RECURSIVE APPRAOCH
-**Steps :**
+### RECURSIVE APPRAOCH 
+
+**Algorithm :**
 
 1. Declare and initialize variables start=0 and end=length-1
 2. When start<end,swap A[start] and A[end].
@@ -566,11 +568,11 @@ Time Complexity : O(n)
 
 **Time Complexity** 
   
-Time Complexity : O(n) 
+Time Complexity : `O(n)`\ 
 
 
 
-##OUTPUT : 
+## OUTPUT : 
 
 1. Iterative Approach : 
 
